@@ -25,6 +25,11 @@ function Navbar({ isAuth, signUserOut }) {
                 Create Post
               </Link>
             </li>
+            <li>
+              <Link to="/profile" className="text-white">
+                Profile
+              </Link>
+            </li>
             <button className="text-white" onClick={signUserOut}>
               Log out
             </button>
