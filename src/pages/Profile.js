@@ -89,7 +89,7 @@ function Profile() {
           </div>
         </div>
         <div className="w-full max-w-lg">
-          <h2 className="text-xl font-bold p-4">My Blogs</h2>
+          <h2 className="text-xl font-bold p-4">My Messages</h2>
           <div className="p-4 space-y-4">
             {userPosts.length > 0 ? (
               userPosts.map((post) => (
@@ -110,7 +110,7 @@ function Profile() {
                 </div>
               ))
             ) : (
-              <p>No blogs available.</p>
+              <p>No Messages available.</p>
             )}
           </div>
         </div>

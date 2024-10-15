@@ -27,7 +27,9 @@ function CreatePost({ isAuth }) {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       <div className="w-full max-w-md bg-white p-6 rounded-lg shadow-lg">
-        <h1 className="text-2xl font-bold text-center mb-6">Create A Post</h1>
+        <h1 className="text-2xl font-bold text-center mb-6">
+          Create A Message
+        </h1>
 
         <div className="mb-4">
           <label className="block text-gray-700 font-semibold mb-2">
@@ -45,7 +47,7 @@ function CreatePost({ isAuth }) {
 
         <div className="mb-6">
           <label className="block text-gray-700 font-semibold mb-2">
-            Post:
+            Message:
           </label>
           <textarea
             placeholder="Post..."
@@ -60,7 +62,7 @@ function CreatePost({ isAuth }) {
           onClick={createpost}
           className="w-full bg-blue-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-600 transition"
         >
-          Submit Post
+          Submit Message
         </button>
       </div>
     </div>

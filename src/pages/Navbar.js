@@ -22,7 +22,7 @@ function Navbar({ isAuth, signUserOut }) {
           <div className="flex flex-col  lg:flex-row gap-6 lg:bg-blue-900">
             <li>
               <Link to="/createpost" className="text-white">
-                Create Post
+                Create Message
               </Link>
             </li>
             <li>
@@ -43,7 +43,7 @@ function Navbar({ isAuth, signUserOut }) {
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2 text-xl font-bold text-white ">
           {/* <img className="w-10 h-10" src="" alt="logo"/> */}
-          TechStory
+          PingMe
         </div>
 
         <div className="hidden lg:flex items-center gap-4">
